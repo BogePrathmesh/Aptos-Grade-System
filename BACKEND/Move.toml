@@ -1,0 +1,15 @@
+[package]
+name = "thiswillwork14"
+version = "1.0.0"
+authors = []
+
+[addresses]
+my_addr="0x413b0940d090d8767fdd0773ef6a6f3df6b5d81ab4396871525e4a14ad5d3769"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
